@@ -13,10 +13,10 @@ var db *sql.DB
 // ConnectDB establishes a connection to the MySQL database
 func ConnectDB() {
 	// Define MySQL database connection parameters
-	dbUser := "root"         // MySQL username
-	dbPassword := "6279"     // MySQL password
-	dbHost := "127.0.0.1"    // MySQL host (localhost)
-	dbPort := "3306"         // MySQL port
+	dbUser := ""             // MySQL username
+	dbPassword := ""         // MySQL password
+	dbHost := ""             // MySQL host (localhost)
+	dbPort := ""             // MySQL port
 	dbName := "adventure_db" // Your database name
 
 	// Data Source Name (DSN): "username:password@tcp(host:port)/dbname"
